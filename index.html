@@ -10,20 +10,20 @@
     <script src="script.js" defer></script>
 </head>
 
-<body class="container">
-    <h1 class="my-4">Restaurant Data</h1>
-    <div class="my-3">
+<body class="">
+    <h1 class="my-4 container">Restaurant Data</h1>
+    <div class="my-3 container">
         <h2>Get Restaurants</h2>
-        <button id="displayCardBtn" class="btn btn-primary">Get Restaurant</button>
+        <button id="displayCardBtn" class="btn btn-primary m-2">Get Restaurant</button>
     </div>
 
-    <div id="generatedCard" class="row">
-
+    <div class="container">
+        <div id="generatedCard" class="row"></div>
     </div>
 
-    <h2>Add Restaurant</h2>
+    <h2 class="container">Add Restaurant</h2>
 
-    <form id="inputForm">
+    <form id="inputForm" class="container">
         <label for="nameInput" class="form-label">Name:</label>
         <input type="text" id="nameInput" class="form-control" required><br>
 
@@ -46,7 +46,7 @@
         <button type="submit" class="btn btn-success">Add Restaurant</button>
     </form>
 
-    <div class="my-3">
+    <div class="my-3 container">
         <p id="successMsg"></p>
     </div>
 </body>
